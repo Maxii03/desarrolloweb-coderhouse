@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
-    <title></title>
+    <title>Productos</title>
 </head>
 
 <body>
@@ -15,54 +15,43 @@
     <h1>Logistica Raviol</h1>
 </header>
 
-<main>
-    <table class="table">
-
-        <div id="encabezado">
-            <tr>
-                <th><strong>QUESOS</strong></th>
-                <th><strong>ALIMENTOS</strong></th>
-                <th><strong>HIGIENE</strong></th>
-        </tr>
-
-        </div>
+<main class="mainProductos">
+    <h2 id="Stock"><strong>Stock</strong></h2>
+    
+    <div class="ContenedorTable">   
+        <table class="table">
+            <div>
+                <tr id="encabezado">
+                    <th><strong>PERECEDERO</strong></th>
+                    <th><strong>REFRIGERADO</strong></th>
+                    <th><strong>SECO</strong></th>
+                </tr>
+            </div>
         
-        <div id="productosLista">
-            <tr>
-                <td>Danbo</td>
-                <td>Maní pelado</td>
-                <td>Rollos de cocina X3</td>
+            <div>
+                <tr id="primerFila">
+                    <td>Queso cremoso</td>
+                    <td>Jamon cocido</td>
+                    <td>Rollos de cocina X3</td>
+                </tr>
+
+                <tr id="segundaFila">
+                    <td>Queso barra</td>
+                    <td>Salame milan</td>
+                    <td>Papel higienico</td>
+            </tr>
+            <tr id="tercerFila">
+                <td>Queso Danbo</td>
+                <td>Mortadela</td>
+                <td>Maquina de afeitar</td>
             </tr>
         </div>
-    </table>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-8 col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Tarjeta Responsive</h5>
-                        <p class="card-text">Este es un ejemplo de una tarjeta Bootstrap que se ajusta a diferentes tamaños de pantalla.</p>
-                        <a href="#" class="btn btn-primary">Más Información</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 col-lg-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Otra Tarjeta</h5>
-                        <p class="card-text">Esta tarjeta también se ajusta de manera responsiva.</p>
-                        <a href="#" class="btn btn-secondary">Más Información</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </table> 
     </div>
-        
 </main>
    
 
-<footer>
+<footer class="footerProductos">
     <a href="../index.html">Volver a inicio</a>
     <div>
         <p>--------------------------------------------------------------</p>

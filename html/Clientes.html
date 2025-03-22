@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
     <title>Mis clientes</title>
 </head>
@@ -13,54 +14,72 @@
         <h1>
             <strong>Logistica Raviol</strong>
         </h1>
+       
+          </nav>
+          
 </header>
 
-<br><br>
-<h2>Clientes por barrio</h2>
-<br>
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Library</li>
+            </ol>
+            
+<h2 id="SubtituloCliente">Clientes por barrio</h2>
+
 
 <main>
-   <div class="17deAgosto">
-    17 de Agosto:
-    <select>
-        <option value="">Luisa</option>
-        <option value="">Jorge</option>
-        <option value="">Teresa</option>
-    </select> 
-   </div>
+    <div class="Barrio1">
+        <button class="btn btn-bs-secondary-bg
+        dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            17 de Agosto:
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Luisa</a></li>
+          <li><a class="dropdown-item" href="#">Jorge</a></li>
+          <li><a class="dropdown-item" href="#">Teresa</a></li>
+        </ul>
+      </div>
    
-   <div class="Pirayui">
-    Pirayuí:
-    <select>
-        <option value="">Maxikiosco Maxi</option>
-        <option value="">24hs Full</option>
-        <option value="">Canga</option>
-    </select> 
-   </div>
-   
-   <div class="Montaña">
-    Montaña:
-    <select>
-        <option value="">Supermax</option>
-        <option value="">San Lucio</option>
-        <option value="">danubio</option>
-    </select> 
-   </div> 
+      <div class="Barrio2">
+        <button class="btn btn-bs-secondary-bg
+        dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Pirayuí
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Maxikiosco Maxi</a></li>
+          <li><a class="dropdown-item" href="#">24hs Full</a></li>
+          <li><a class="dropdown-item" href="#">Canga</a></li>
+        </ul>
+      </div>
+
+
+      <div class="Barrio3">
+        <button class="btn btn-bs-secondary-bg
+        dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Montaña
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Supermax</a></li>
+          <li><a class="dropdown-item" href="#">San Lucio</a></li>
+          <li><a class="dropdown-item" href="#">danubio</a></li>
+        </ul>
+      </div>
 
 </main>
 
 
 <footer>
-    <br><br><br>
-    <a href="../index.html">Volver a inicio</a>
     <div>
         <p>--------------------------------------------------------------</p>
         <p>Somos una distribuidora localizada en Corrientes, Argentina</p>
         <p>Suministros para empresas</p>
         <p>Derechos reservados</p>
     </div>
+    
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>

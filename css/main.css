@@ -60,8 +60,7 @@ body{
 
 footer{
     text-align: center;  
-    color: rgb(255, 255, 255);
-    text-decoration:dashed;
+    color: beige(255, 255, 255);
 }
 
 
@@ -83,11 +82,32 @@ footer{
 
 /*-------------------------PRODUCTOS . HTML -------------------------*/
 .cabeceraProductos{
-    background-color: white;
-    color: black;
-    padding: 1vh;
-    border-bottom: 2px solid black;
+    height: 10vh;
+    background-color: rgb(231, 231, 216);
+    color:rgb(36, 35, 35);
     text-align: center;
+    padding: 20px;
+}
+
+#Stock{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(36, 35, 35);
+}
+
+.mainProductos{
+    height: 80vh;
+}
+
+.ContenedorTable{
+    display: grid;
+    justify-content: center;
+    color: rgb(36, 35, 35);
+}
+
+.footerProductos{
+    height: 10vh;
 }
 
 
@@ -110,48 +130,28 @@ padding: 1%;
 
 /*-------------------------CLIENTES . HTML -------------------------*/
 .cabeceraClientes{
-    background-color: white;
+    background-color: beige;
     color: black;
     padding: 1vh;
     border-bottom: 2px solid black;
     text-align: center;
 }
 
+#SubtituloCliente{
+    margin: 20px;
+}
 
-/*
-body{
-    background-color: aliceblue;
+.Barrio1{ /*17deAgosto*/
+
+ padding: 20px;
 }
-.box{
-    background-color: red;
-    height: 150px ;
-    width: 150px;
-    border: 4px solid black;
-    margin: 30px;
-    padding: 30px;
+
+.Barrio2{    /*Pirayui*/
+padding: 20px;
 }
-#box1{
-    position: absolute;
-    right: 30px;
+
+.Barrio3{    /*Montaña*/
+    padding: 20px;
 }
-#box2{
-    background-color: rgb(34, 55, 74);
-    position: relative;
-}
-#box2 p{
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-#box3{
-    background-color: green;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    border-radius: 50%;
-}
-#box4{
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}*/
+
+
