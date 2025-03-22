@@ -12,6 +12,11 @@
     border-bottom: 2px solid black;
 }
 
+#Logotipo{
+   height: 20vh;
+   width: 40vh;
+}
+
 body{
     /*Color de fondo de la pagina*/
     background-color:#3d6582;
@@ -89,22 +94,18 @@ footer{
     padding: 20px;
 }
 
-#Stock{
-    display: flex;
+.MainProduc{
+    padding: 10px;
+    display: grid;
     justify-content: center;
-    padding: 20px;
-    color: rgb(36, 35, 35);
+    gap: 15px;
 }
 
 .mainProductos{
     height: 80vh;
 }
 
-.ContenedorTable{
-    display: grid;
-    justify-content: center;
-    color: rgb(36, 35, 35);
-}
+
 
 .footerProductos{
     height: 10vh;
