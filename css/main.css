@@ -9,7 +9,6 @@
 .cabeceraIndex{ 
     background-color: white;
     text-align: center;
-    border-bottom: 2px solid black;
 }
 
 #Logotipo{
@@ -17,10 +16,16 @@
    width: 40vh;
 }
 
-body{
+.bodyIndex{
+    background-color: #3d6582;
+    color: beige;
+}
+
+.mainIndex{
     /*Color de fondo de la pagina*/
     background-color:#3d6582;
     color: beige;
+    height: 75vh;
 }
 
 .titulo{
@@ -31,128 +36,165 @@ body{
 .Contactos{
     display: flex;
     justify-content: end;
-    gap: 0.6%;
+    gap: 1%;
 }
 
-#whatsapp{
-    
-    border-radius: 50% solid;
-}
-#instagram{
-
-    border-radius: 50%;
-}
-#gmail{
- 
-    border-radius: 50%;
-}
-#facebook{
-    border-radius: 50%;
-}
-
-.navegacion a{
-    text-decoration: dashed;
-    margin: 10px;
-    text-transform: capitalize;
-    color: beige;
-
-}
-
-
-.espaciado{
-    color: #3d6582;
-}
 
 footer{
     text-align: center;  
     color: beige(255, 255, 255);
+    height: 10vh;
 }
+
+
 
 
 
 
 /*-------------------------AGENDA . HTML -------------------------*/
+.bodyAgenda{
+    background-color: #3d6582;
+    color: beige;
+}
+
+.ArmandoRuta{
+    height: 75vh;
+}
+
 .cabeceraAgenda{
-    background-color: white;
-    color: black;
-    padding: 1vh;
-    border-bottom: 2px solid black;
-    text-align: center;
+    display: flex;
+    background-color: beige;
+    color:rgb(36, 35, 35);
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
 }
 
 #enviar{
     text-align: center;
 }
 
+.footerAgenda{
+   
+    height: 10vh;
+}
+
+
+
+
 
 /*-------------------------PRODUCTOS . HTML -------------------------*/
+.bodyProductos{
+    background-color: #3d6582;
+    color: beige;
+}
+
 .cabeceraProductos{
-    height: 10vh;
+    display: flex;
+    height: 15vh;
     background-color: rgb(231, 231, 216);
     color:rgb(36, 35, 35);
-    text-align: center;
-    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .MainProduc{
+    display: flex;
     padding: 10px;
     display: grid;
     justify-content: center;
+    align-items: center;
     gap: 15px;
+    height: 75vh;
 }
 
-.mainProductos{
-    height: 80vh;
+.tab-content{
+    color:rgb(36, 35, 35);
 }
-
-
 
 .footerProductos{
     height: 10vh;
 }
 
 
+
+
+
 /*-------------------------VEHICULOS . HTML -------------------------*/
+.bodyVehiculos{
+    background-color: #3d6582;
+    color: beige;
+}
+
 .cabeceraVehiculos{
-    background-color: white;
-    color: black;
-    padding: 1vh;
-    border-bottom: 2px solid black;
-    text-align: center;
+    display: flex;
+    background-color: beige;
+    color:rgb(36, 35, 35);
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+
+#carouselExampleFade{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.mainVehiculos{
+    display: flex;
+    justify-content: center;
+    height: 75vh;
 }
 
 .tituloDisponible{
+    display: flex;
     text-decoration: underline;
+    justify-content: center;
+    padding: 10px;
 }
 
-.vehiculos{
-padding: 1%;
+.footerVehiculos{
+    height: 10vh;
 }
+
+
+
+
+
 
 /*-------------------------CLIENTES . HTML -------------------------*/
+.bodyClientes{
+    background-color: #3d6582;
+    color: beige;
+}
+
 .cabeceraClientes{
+    display: flex;
     background-color: beige;
     color: black;
-    padding: 1vh;
-    border-bottom: 2px solid black;
-    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
 }
 
-#SubtituloCliente{
-    margin: 20px;
+.mainClientes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
 }
 
-.Barrio1{ /*17deAgosto*/
-
- padding: 20px;
+.contenedorClientes{
+    padding: 30px;
 }
 
-.Barrio2{    /*Pirayui*/
-padding: 20px;
-}
+.footerClientes{
+    height: 10vh;
+    color: beige;
 
-.Barrio3{    /*Montaña*/
-    padding: 20px;
 }
 
 

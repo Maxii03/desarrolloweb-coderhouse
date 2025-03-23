@@ -3,37 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
     <title>Tus vehiculos</title>
 </head>
 
-<body>
+<body class="bodyVehiculos">
 
 <header class="cabeceraVehiculos">
     <h1>Logistica Raviol</h1>
 </header>
 
-<br>
+
 <h2 class="tituloDisponible">Vehiculos disponibles</h2>
-<br>
 
-<main>
-    <p>Selecciona tu vehiculo</p>
-    
-    <div class="vehiculos">
-        <select>
-            <option value="">furgoneta1</option>
-            <option value="">furgoneta2</option>
-            <option value="">furgoneta3</option>
-            <option value="">furgoneta4</option>
-            <option value="">furgoneta5</option>
-            <option value="">furgoneta6</option>
-        </select> 
-    </div>
-</main>
 
-<footer>
-    <br><br><br>
+<main class="mainVehiculos">
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../Img/refrigerado1.jpeg" class="d-block w-100"  height="300" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Img/refrigerado2.jpeg" class="d-block w-100"  height="300" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Img/camion2.jpeg" class="d-block w-100"  height="300" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </main>
+
+<footer class="footerVehiculos">
     <a href="../index.html">Volver a inicio</a>
     <div>
         <p>--------------------------------------------------------------</p>
@@ -42,6 +53,8 @@
         <p>Derechos reservados</p>
     </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 
